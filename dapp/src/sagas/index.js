@@ -8,7 +8,7 @@ import tokenSaga from './token'
 import userSaga from './user'
 import bridgeSaga from './bridge'
 
-console.log('hello')
+console.log('hello2')
 
 export default function * rootSaga () {
   yield all([

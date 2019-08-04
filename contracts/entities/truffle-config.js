@@ -8,7 +8,7 @@ const createProvider = (rpcUrl) => {
   }
 }
 
-console.log('hello')
+console.log('hello2')
 
 
 module.exports = {
