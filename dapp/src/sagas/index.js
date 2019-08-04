@@ -8,6 +8,8 @@ import tokenSaga from './token'
 import userSaga from './user'
 import bridgeSaga from './bridge'
 
+console.log('hello')
+
 export default function * rootSaga () {
   yield all([
     fork(metadataSaga),

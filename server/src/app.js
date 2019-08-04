@@ -11,6 +11,8 @@ const config = require('config')
 const initSecrets = require('@utils/awsSecrets')
 require('express-async-errors')
 
+console.log('hello')
+
 async function initConfig () {
   await initSecrets(config)
 
